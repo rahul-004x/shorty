@@ -1,5 +1,5 @@
 import * as trpcNext from '@trpc/server/adapters/next';
-import { prisma } from './prisma';
+import { prisma } from './db';
 
 export const createContext = async ({
   req,
